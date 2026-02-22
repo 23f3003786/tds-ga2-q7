@@ -11,5 +11,5 @@ jobs:
       with:
         key: cache-d4db335
         path: .
-    - name: Echo cache result
-      run: echo "Cache hit: ${{ steps.cache-d4db335.outputs.cache-hit }}"
+    - name: Echo result
+      run: echo Cache hit: ${{ steps.cache-d4db335.outputs.cache-hit }}
